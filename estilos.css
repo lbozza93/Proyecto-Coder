@@ -110,7 +110,7 @@ header{
 }
 
 .texto-banner {
-    font-family: 'Architects Daughter', cursive;;
+    font-family: 'Architects Daughter', cursive;
     font-size: 50px;
     color: aliceblue;
     text-shadow: 1px 1px 4px black;
@@ -213,23 +213,39 @@ footer{
     font-size: 12px;
 }
 
-.productos{
-    display: flex;
-    flex-wrap: wrap;
 
+/* Estilos pagina "Productos.html" */
+
+#main-p{
+    margin: 100px;
 }
+
+
+.productos{
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 50px;
+    margin-top: 50px;
+}
+
 
 .productos img{
-    max-width: 500px;
-    float: left;
+    width: 100%;
 }
 
-.productos div{
-    flex-basis: 50%;
-    background-color: aqua;
-    margin: 30px;
+h1{
+    font-family: 'Oswald';
+    text-align: center;
 }
 
- #main-p{
-    background-color: darkslategrey;
- }
+h2{
+    font-family: 'Oswald';
+    text-align: center  ;
+}
+
+p{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+
