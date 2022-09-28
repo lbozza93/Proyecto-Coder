@@ -214,10 +214,11 @@ footer{
 }
 
 .productos{
-    display: flex
+    display: flex;
 
 }
 
-.imagen-p{
-
-}git remote add origin https://github.com/lbozza93/Segunda-Pre-entrega.git
+.productos img{
+    max-width: 200px;
+    height: auto;
+}
