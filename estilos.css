@@ -215,10 +215,21 @@ footer{
 
 .productos{
     display: flex;
+    flex-wrap: wrap;
 
 }
 
 .productos img{
-    max-width: 200px;
-    height: auto;
+    max-width: 500px;
+    float: left;
 }
+
+.productos div{
+    flex-basis: 50%;
+    background-color: aqua;
+    margin: 30px;
+}
+
+ #main-p{
+    background-color: darkslategrey;
+ }
