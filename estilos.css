@@ -231,6 +231,7 @@ footer{
 
 .productos img{
     width: 100%;
+    min-width: 200px;
 }
 
 h1{
@@ -240,12 +241,24 @@ h1{
 
 h2{
     font-family: 'Oswald';
-    text-align: center  ;
+    text-align: center;
+    font-size: 20px;
 }
 
 p{
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Architects Daughter', cursive;
 }
 
+/* Media Queries */
+
+@media  (max-width: 767px){
+    .productos{
+        display: grid;  
+        grid-template-columns: 1fr;
+        gap: 50px;
+        margin-top: 50px;
+    }
+
+}
