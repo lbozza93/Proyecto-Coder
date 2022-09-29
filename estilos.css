@@ -44,14 +44,12 @@ header{
 }
 
 .menu{
-    /* display: flex; */
+    display: flex;
     font-size: 18px;
-    position: sticky;
 }
 
 .menu li{
     list-style: none;
-    display: inline-block;
 }
 
 .menu li a{
@@ -91,6 +89,29 @@ header{
     color: blue;
     font-size: 40px;
 }
+
+
+footer{
+    background-color:rgb(83, 24, 138);
+    height: 200px;
+    margin-top: 150px;
+}
+
+.atencion-ventas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.atencion{
+    list-style: none;
+}
+
+.ventas{
+    list-style: none;
+}
+
+
+
 
 
 /* Estilos pagina "Productos.html" */
