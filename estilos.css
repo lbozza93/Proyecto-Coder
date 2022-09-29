@@ -43,13 +43,14 @@ header{
 }
 
 .menu{
-    display: flex;
-    font-size: 20px;
+    /* display: flex; */
+    font-size: 18px;
     position: sticky;
 }
 
 .menu li{
     list-style: none;
+    display: inline-block;
 }
 
 .menu li a{
@@ -68,11 +69,15 @@ header{
     background-position: center;
 }
 
+.redes{
+    margin-top: 350px;
+}
+
 .redes-sociales{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40%;
+
 }
 
 .redes-sociales li{
@@ -80,8 +85,10 @@ header{
 }
 
 .redes-sociales li a{
-    text-decoration: none;
-    padding: 10px;
+    margin: 0 30px;
+    display: block;
+    color: blue;
+    font-size: 40px;
 }
 
 
@@ -127,6 +134,7 @@ p{
 @media (max-width: 830px) {
     header{
         flex-direction: column;
+        padding: 0;
     }
 
 }
