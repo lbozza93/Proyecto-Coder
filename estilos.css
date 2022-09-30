@@ -209,3 +209,23 @@ p {
     }
 
 }
+
+
+/* Estilos Galeria */
+
+
+.carousel-item img{
+    object-fit: cover;
+}
+
+.carouselExampleIndicators{
+    height: 600px;
+}
+
+img{
+   max-height: 600px;
+}
+
+#main-g h1{
+    margin: 100px;
+}
