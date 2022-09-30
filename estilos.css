@@ -179,7 +179,7 @@ p {
     }
 
     .menu {
-        padding: 0;
+        padding: 0px;
     }
 
 }
@@ -229,3 +229,4 @@ img{
 #main-g h1{
     margin: 100px;
 }
+
