@@ -1,19 +1,19 @@
-/* line 1, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 3, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 body {
   width: 100%;
   padding: 0%;
   margin: 0%; }
 
-/* line 7, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 9, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .text-shadow {
   text-shadow: 1px 1px 3PX;
   color: black; }
 
-/* line 12, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 14, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .contenedor {
   background-color: #ffffff; }
 
-/* line 18, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 20, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 header {
   display: flex;
   justify-content: space-between;
@@ -21,39 +21,39 @@ header {
   padding: 20px;
   background-color: #ffffff; }
 
-/* line 27, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 29, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 #main h1 {
   color: white;
   font-size: 50px;
   font-weight: 100;
   padding-top: 100px; }
 
-/* line 34, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 36, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .texto {
   text-align: center;
   color: aliceblue;
   font-size: x-large; }
 
-/* line 40, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 42, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .logo img {
   height: 150px;
   margin-top: 20px; }
 
-/* line 45, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 47, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .menu {
   display: flex;
   font-size: 18px; }
-  /* line 50, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+  /* line 52, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
   .menu li {
     list-style: none; }
-    /* line 53, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+    /* line 55, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
     .menu li a {
       text-decoration: none;
-      font-family: 'Oswald';
+      font-family: "Oswald";
       color: #53188a;
       padding: 10px; }
 
-/* line 64, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 66, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 #main {
   background-image: url(/Imagenes/banner.jpg);
   height: 600px;
@@ -62,91 +62,91 @@ header {
   background-attachment: fixed;
   background-position: center; }
 
-/* line 73, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 75, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .redes {
   margin-top: 350px; }
 
-/* line 77, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 79, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .redes-sociales {
   display: flex;
   align-items: center;
   justify-content: center; }
-  /* line 82, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+  /* line 84, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
   .redes-sociales li {
     list-style: none; }
-    /* line 85, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+    /* line 87, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
     .redes-sociales li a {
       margin: 0 30px;
       display: block;
       color: blue;
       font-size: 40px; }
 
-/* line 97, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 99, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 footer {
   background-color: #53188a;
   height: 150px;
   margin-top: 150px; }
 
-/* line 103, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 105, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .atencion-ventas {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-top: 20px; }
 
-/* line 110, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 112, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .atencion {
   list-style: none;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-size: 20px;
   text-align: center;
   color: aliceblue; }
 
-/* line 118, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 120, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .ventas {
   list-style: none;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-size: 20px;
   text-align: center;
   color: aliceblue; }
 
-/* line 126, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 128, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .derechos {
   text-align: right;
   padding-top: 5px;
   padding-right: 10px;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-size: 12px;
   color: aliceblue; }
 
 /* Estilos pagina "Productos.html" */
-/* line 141, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 143, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 #main-p {
   margin: 100px; }
 
-/* line 146, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 148, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .productos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
   gap: 50px;
   margin-top: 50px; }
-  /* line 154, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+  /* line 156, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
   .productos img {
     width: 100%;
     min-width: 200px; }
 
-/* line 160, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 162, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 h1 {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   text-align: center; }
 
-/* line 165, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 167, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 h2 {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   text-align: center;
   font-size: 20px; }
 
-/* line 171, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 173, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 p {
   margin-top: 40px;
   font-size: 18px;
@@ -154,49 +154,49 @@ p {
 
 /* Media Queries */
 @media (max-width: 830px) {
-  /* line 180, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+  /* line 182, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
   header {
     flex-direction: column;
     padding: 0;
     align-items: center; }
-  /* line 186, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+  /* line 188, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
   .menu {
     padding: 0px; } }
 
 @media (max-width: 767px) {
-  /* line 193, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+  /* line 195, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
   .productos {
     display: grid;
     grid-template-columns: 1fr;
     gap: 50px;
     margin-top: 50px; }
-  /* line 200, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+  /* line 202, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
   header {
     align-items: center; }
-  /* line 204, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+  /* line 206, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
   .menu {
     padding: 0%; } }
 
 @media (max-width: 466px) {
-  /* line 211, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+  /* line 213, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
   .menu {
     font-size: 15px;
     padding: 0; } }
 
 /* Estilos Galeria */
-/* line 222, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 224, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .carousel-item img {
   object-fit: cover; }
 
-/* line 226, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 228, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 .carouselExampleIndicators {
   height: 600px; }
 
-/* line 230, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 232, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 img {
   max-height: 600px; }
 
-/* line 234, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
+/* line 236, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 #main-g h1 {
   margin: 100px; }
 
