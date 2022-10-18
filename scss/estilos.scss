@@ -45,18 +45,21 @@ header {
 .menu {
     display: flex;
     font-size: 18px;
+
+
+    li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            font-family: 'Oswald';
+            color: rgb(83, 24, 138);
+            padding: 10px;
+        }
+    }
+
 }
 
-.menu li {
-    list-style: none;
-}
-
-.menu li a {
-    text-decoration: none;
-    font-family: 'Oswald';
-    color: rgb(83, 24, 138);
-    padding: 10px;
-}
 
 #main {
     background-image: url(/Imagenes/banner.jpg);
@@ -76,19 +79,20 @@ header {
     align-items: center;
     justify-content: center;
 
-}
+    li {
+        list-style: none;
 
-.redes-sociales li {
-    list-style: none;
-}
+        a {
+            margin: 0 30px;
+            display: block;
+            color: blue;
+            font-size: 40px;
+        }
 
-.redes-sociales li a {
-    margin: 0 30px;
-    display: block;
-    color: blue;
-    font-size: 40px;
-}
+    }
 
+
+}
 
 footer {
     background-color: rgb(83, 24, 138);
@@ -144,12 +148,13 @@ footer {
     grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
     gap: 50px;
     margin-top: 50px;
-}
 
 
-.productos img {
-    width: 100%;
-    min-width: 200px;
+
+    img {
+        width: 100%;
+        min-width: 200px;
+    }
 }
 
 h1 {
@@ -214,18 +219,18 @@ p {
 /* Estilos Galeria */
 
 
-.carousel-item img{
+.carousel-item img {
     object-fit: cover;
 }
 
-.carouselExampleIndicators{
+.carouselExampleIndicators {
     height: 600px;
 }
 
-img{
-   max-height: 600px;
+img {
+    max-height: 600px;
 }
 
-#main-g h1{
+#main-g h1 {
     margin: 100px;
 }
