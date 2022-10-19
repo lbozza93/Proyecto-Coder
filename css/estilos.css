@@ -55,7 +55,7 @@ header {
 
 /* line 66, ../../Desktop/CODERHOUSE/Bozza Leandro - Tercera Pre-Entrega/scss/estilos.scss */
 #main {
-  background-image: url(./Imagenes/banner.jpg);
+  background-image: url(../Imagenes/banner.jpg);
   height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
