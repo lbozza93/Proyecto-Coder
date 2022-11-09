@@ -250,10 +250,28 @@ img {
     margin: 100px;
 }
 
+
+/* Estilos Quienes Somos */
+
 .historia {
     margin: 30px;
+
 }
+
 
 .politica {
     margin: 30px;
+}
+
+.historia img{
+    max-width: 400px;
+    position: relative;
+}
+
+.texto-h {
+    text-align: center;
+}
+
+.texto-p{
+    text-align: center;
 }
